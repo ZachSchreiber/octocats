@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+li {
+  overflow: hidden;
+  list-style: none;
+  float: left;
+  color: #dfdfdf;
+}
+ul {
+  overflow: hidden;
+  float: left;
+}
+li.octocat img {
+  width: 25%;
+  margin: 0 2%;
+  border: solid #dfdfdf 2px;
+  border-radius: 1%;
+
+}
+
+ul.authors img {
+  overflow: hidden;
+  position: relative;
+  width: 20px;
+  float: left;
+}
+
+footer {
+  border-bottom: solid #dfdfdf 2px;
+  height: 3%;
+  width: 25%;
+  margin: 0;
+
+}
+
+.triangle-down {
+ float: right;
+ overflow: hidden;
+ position: relative;
+ margin:
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 10px 5px 0 5px;
+ border-color: #dfdfdf transparent;
+}
+
+h3.octonumber {
+  margin: 2%;
+}
